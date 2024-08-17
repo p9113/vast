@@ -205,7 +205,7 @@ function provisioning_download() {
         auth_token="$HF_TOKEN"
     elif 
         [[ -n $CIVITAI_TOKEN && $1 =~ ^https://([a-zA-Z0-9_-]+\.)?civitai\.com(/|$|\?) ]]; then
-        auth_token="$CIVITAI_TOKEN"
+        auth_token="971bfbee8ce4b7d888c09b0ed9035dbe"
     fi
     if [[ -n $auth_token ]];then
         wget --header="Authorization: Bearer $auth_token" -qnc --content-disposition --show-progress -e dotbytes="${3:-4M}" -P "$2" "$1"
