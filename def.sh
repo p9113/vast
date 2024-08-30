@@ -22,14 +22,14 @@ PIP_PACKAGES=(
 EXTENSIONS=(
     "https://github.com/Mikubill/sd-webui-controlnet"
     #"https://github.com/deforum-art/sd-webui-deforum"
-    #"https://github.com/adieyal/sd-dynamic-prompts"
+    "https://github.com/adieyal/sd-dynamic-prompts"
     #"https://github.com/ototadana/sd-face-editor"
     "https://github.com/AlUlkesh/stable-diffusion-webui-images-browser"
     "https://github.com/hako-mikan/sd-webui-regional-prompter"
     "https://github.com/Coyote-A/ultimate-upscale-for-automatic1111"
     "https://github.com/Gourieff/sd-webui-reactor"
     "https://github.com/Uminosachi/sd-webui-inpaint-anything"
-    "https://github.com/civitai/sd_civitai_extension"
+    "https://github.com/BlafKing/sd-civitai-browser-plus"
 )
 
 CHECKPOINT_MODELS=(
@@ -40,12 +40,13 @@ CHECKPOINT_MODELS=(
     #"https://huggingface.co/RunDiffusion/Juggernaut-XL-v9/resolve/main/Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors"
     "https://huggingface.co/RunDiffusion/Juggernaut-X-v10/resolve/main/Juggernaut-X-RunDiffusion-NSFW.safetensors"
     "https://huggingface.co/SG161222/RealVisXL_V4.0/resolve/main/RealVisXL_V4.0.safetensors"
+    "https://huggingface.co/LyliaEngine/ponyRealism_v21MainVAE/resolve/main/ponyRealism_v21MainVAE.safetensors"
     
 )
 
 LORA_MODELS=(
-    "https://civitai.com/api/download/models/16576"
-    "https://civitai.com/api/download/models/781855"
+    #"https://civitai.com/api/download/models/16576"
+    #"https://civitai.com/api/download/models/781855"
 )
 
 VAE_MODELS=(
