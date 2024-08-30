@@ -37,15 +37,14 @@ CHECKPOINT_MODELS=(
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
     #"https://huggingface.co/RunDiffusion/Juggernaut-XL-v9/resolve/main/Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors"
-    #"https://huggingface.co/RunDiffusion/Juggernaut-X-v10/resolve/main/Juggernaut-X-RunDiffusion-NSFW.safetensors"
-    #"https://huggingface.co/SG161222/RealVisXL_V4.0/resolve/main/RealVisXL_V4.0.safetensors"
-    "https://civitai.com/api/download/models/717529?type=Model&format=SafeTensor&size=pruned&fp=fp16"
-    "https://civitai.com/api/download/models/717529"
+    "https://huggingface.co/RunDiffusion/Juggernaut-X-v10/resolve/main/Juggernaut-X-RunDiffusion-NSFW.safetensors"
+    "https://huggingface.co/SG161222/RealVisXL_V4.0/resolve/main/RealVisXL_V4.0.safetensors"
+    
 )
 
 LORA_MODELS=(
-    #"https://civitai.com/api/download/models/16576"
-    #"https://civitai.com/api/download/models/781855?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/16576"
+    "https://civitai.com/api/download/models/781855"
 )
 
 VAE_MODELS=(
