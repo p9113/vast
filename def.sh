@@ -29,6 +29,7 @@ EXTENSIONS=(
     "https://github.com/Coyote-A/ultimate-upscale-for-automatic1111"
     "https://github.com/Gourieff/sd-webui-reactor"
     "https://github.com/Uminosachi/sd-webui-inpaint-anything"
+    "https://github.com/civitai/sd_civitai_extension"
 )
 
 CHECKPOINT_MODELS=(
