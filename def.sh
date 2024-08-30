@@ -65,6 +65,8 @@ CONTROLNET_MODELS=(
     "https://huggingface.co/thibaud/controlnet-openpose-sdxl-1.0/blob/main/OpenPoseXL2.safetensors"
     "https://huggingface.co/h94/IP-Adapter/blob/main/sdxl_models/ip-adapter_sdxl.safetensors"
     "https://huggingface.co/ostris/ip-composition-adapter/resolve/main/ip_plus_composition_sdxl.safetensors"
+    "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus_sd15.safetensors"
+    "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15.safetensors"
     #"https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_canny_mid.safetensors"
     #"https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_depth_mid.safetensors?download"
     #"https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/t2i-adapter_diffusers_xl_openpose.safetensors"
